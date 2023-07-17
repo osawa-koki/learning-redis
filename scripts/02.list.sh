@@ -1,10 +1,10 @@
 
 # リストの末尾に追加。
-RPUSH key [value ...]
+RPUSH key [値 ...]
 RPUSH mylist "Hello" "World" "!"
 
 # リストの先頭に追加。
-LPUSH <キー> [value ...]
+LPUSH <キー> [値 ...]
 LPUSH mylist "Good" "Morning" "?"
 
 # リストの値を参照。
